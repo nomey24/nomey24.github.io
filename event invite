@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>"Event invitation"</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color:rgb(222, 246, 247);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            background-color:white;
+            border: 3px solid rgb(77, 99, 45);
+            border-radius: 15px;
+            width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color:rgb(78, 112, 33);
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color:rgb(78, 112, 33);
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .details {
+            font-size: 16px;
+            color:black;
+            margin-bottom: 20px;
+        }
+
+        .date-time {
+            font-size: 18px;
+            color:rgb(78,112,33);
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .location {
+            font-size: 16px;
+            color:rgb(105, 101, 105);
+            margin-bottom: 20px;
+        }
+
+        a {
+            margin-top: 15px;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            background-color:rgb(78,112,33);
+        }
+
+        #workshop{
+            font-size: 14px;
+            color:rgb(153, 148, 153);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Join Us for a Creative Writing Workshop!</h1>
+        <h2>"Unlock Your Inner Storyteller"</h2>
+        <p class="details">Enhance your writing skills in a fun and engaging environment. This workshop is perfect for both beginners and seasoned writers looking for inspiration.</p>
+        <p class="date-time">Date: March 10, 2025 | Time: 10:00 AM - 2:00 PM</p>
+        <p class="location">Location: Abraham Moss Library & Leisure Centre, 140 Crescent road, Crumpsall</p><br>
+        <a href="#">Register Now</a>
+    </div>
+    <p id= "workshop">Brought to you by Noman Zulfiqar</p>
+</body>
